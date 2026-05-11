@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark-bg: #050505;
+  --color-accent-orange: #F5A623;
+  --color-accent-amber: #FFB347;
+  
+  --font-heading: 'Space Grotesk', 'Satoshi', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-dark-bg);
+    color: white;
+    font-family: var(--font-body);
+    overflow-x: hidden;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 32px;
+  }
+
+  .text-glow {
+    text-shadow: 0 0 20px rgba(245, 166, 35, 0.4);
+  }
+}
