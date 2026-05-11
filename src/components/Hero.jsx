@@ -80,7 +80,7 @@ export default function Hero() {
           {/* Action Buttons */}
           <motion.div variants={itemVariants} className="flex flex-wrap gap-4 mt-8">
             <a
-              href="/P%20M%20Gowrav%20Ganapathy_Resume.pdf"
+              href="/P%20M%20Gowrav%20Ganapathy%20-%20Resume.pdf"
               download="P M Gowrav Ganapathy Resume.pdf"
               className="group relative px-8 py-4 bg-[#F5A623] text-black font-semibold rounded-full overflow-hidden flex items-center gap-2 hover:shadow-[0_0_20px_#F5A623] transition-all duration-300"
             >
