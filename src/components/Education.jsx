@@ -15,7 +15,7 @@ export default function Education() {
     {
       institution: 'St Joseph Engineering College, Mangaluru',
       degree: 'BE in Computer Science and Engineering',
-      score: 'CGPA: 9.32/10',
+      score: 'CGPA: 9.29/10',
       year: '2022 - 2026',
       y: yCard1
     },

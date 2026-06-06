@@ -15,7 +15,7 @@ export default function Experience() {
       role: 'Web Development Intern',
       company: 'GlowLogics Solutions',
       location: 'Bangalore',
-      date: 'Feb 2026 – Present',
+      date: 'Feb 2026 – May 2026',
       highlights: [
         'Developed full-stack applications',
         'Authentication and CRUD features',

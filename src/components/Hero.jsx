@@ -3,6 +3,7 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { FaEnvelope, FaPhoneAlt, FaLinkedin, FaGithub, FaBriefcase, FaDownload } from 'react-icons/fa';
 import profileImage from '../assets/profile.png';
 
+
 export default function Hero() {
   const containerRef = useRef(null);
   const { scrollYProgress } = useScroll({

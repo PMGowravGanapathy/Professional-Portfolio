@@ -11,7 +11,7 @@ export default function About() {
   const yCard = useTransform(scrollYProgress, [0, 1], ["20%", "-20%"]);
 
   const stats = [
-    { label: 'CGPA', value: '9.32/10' },
+    { label: 'CGPA', value: '9.29/10' },
     { label: 'Major Projects', value: '3+' },
     { label: 'Internships', value: '2' },
     { label: 'Team Lead Experience', value: 'Yes' },

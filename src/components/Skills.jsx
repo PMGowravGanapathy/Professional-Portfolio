@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaFigma, FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaGitAlt } from 'react-icons/fa';
-import { SiJavascript, SiTailwindcss, SiNextdotjs, SiFirebase, SiVuedotjs } from 'react-icons/si';
+import { SiJavascript, SiTailwindcss, SiNextdotjs, SiFirebase, SiVuedotjs, SiShopify } from 'react-icons/si';
 
 export default function Skills() {
   const skillCategories = [
@@ -22,6 +22,7 @@ export default function Skills() {
         { name: 'JavaScript', icon: <SiJavascript /> },
         { name: 'React.js', icon: <FaReact /> },
         { name: 'Tailwind CSS', icon: <SiTailwindcss /> },
+        { name: 'Shopify Gempages', icon: <SiShopify /> },
       ]
     },
     {
